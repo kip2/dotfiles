@@ -4,8 +4,8 @@ set title "編集中タイトルの表示
 syntax on "コードに色を付ける
 
 
-" jキーを2度押しでESCキー
-inoremap <silent> jj <ESC>
+" jkキーでESCキー
+inoremap <silent> jk <ESC>
 
 "clipboardの共有
 set clipboard+=unnamed
