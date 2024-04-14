@@ -10,6 +10,11 @@ inoremap <silent> jk <ESC>
 "clipboardの共有
 set clipboard+=unnamed
 
+" Spaceをアンマップ
+unmap <Space>
+
+" 全選択
+nmap <Space>a ggVG
 
 "===== 検索 ====
 " 検索するときに大文字小文字を区別しない
