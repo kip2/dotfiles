@@ -10,9 +10,6 @@ inoremap <silent> jk <ESC>
 "clipboardの共有
 set clipboard+=unnamed
 
-" Spaceをアンマップ
-unmap <Space>
-
 " 全選択
 nmap <Space>a ggVG
 
