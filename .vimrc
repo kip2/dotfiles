@@ -3,6 +3,8 @@ set number "行番号の表示
 set title "編集中タイトルの表示
 syntax on "コードに色を付ける
 
+" <C-r>をUにリマップ
+nnoremap U <C-r>
 
 " jkキーでESCキー
 inoremap <silent> jk <ESC>
